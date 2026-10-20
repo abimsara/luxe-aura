@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luxe Aura | Premium Beauty & Wellness</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
@@ -22,43 +20,31 @@
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a href="contact.html" class="btn btn-primary btn-nav">Book Now</a>
+    <a href="contact.html" class="btn btn-nav">Book Now</a>
     <button class="menu-toggle">☰</button>
   </div>
 </header>
 
+<!-- Full Screen Hero -->
 <section class="hero">
-  <div class="container hero-grid">
-    <div class="reveal">
-      <span class="hero-subtitle">Welcome to Luxe Aura</span>
-      <h1>Redefining <br><span>Beauty</span> & Elegance</h1>
-      <p class="lead">Experience world-class hair, makeup, and skincare treatments in a sanctuary designed for your ultimate relaxation.</p>
-      <div class="hero-actions">
-        <a href="contact.html" class="btn btn-accent">Book Appointment</a>
-        <a href="services.html" class="btn btn-outline">Explore Services</a>
-      </div>
-    </div>
-    <div class="hero-img reveal">
-      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop" alt="Luxury Salon">
-    </div>
+  <div class="hero-content reveal">
+    <span class="hero-subtitle">Welcome to Luxe Aura</span>
+    <h1>Elevate Your <br>Natural Elegance</h1>
+    <p>Experience world-class hair, makeup, and skincare treatments in a sanctuary designed for your ultimate relaxation and transformation.</p>
+    <a href="contact.html" class="btn btn-accent">Reserve Your Appointment</a>
   </div>
 </section>
 
-<div class="container">
-  <div class="trust-bar reveal">
-    <div class="trust-item"><h4>10+</h4><p>Years of Excellence</p></div>
-    <div class="trust-item"><h4>5000+</h4><p>Happy Clients</p></div>
-    <div class="trust-item"><h4>15+</h4><p>Expert Stylists</p></div>
-    <div class="trust-item"><h4>100%</h4><p>Premium Products</p></div>
-  </div>
-</div>
-
+<!-- About Split -->
 <section class="section">
   <div class="container about-split">
+    <div class="about-img reveal">
+      <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop" alt="Beauty Artist">
+    </div>
     <div class="about-text reveal">
-      <span class="hero-subtitle">Our Philosophy</span>
+      <span class="hero-subtitle" style="color:var(--accent); margin-bottom:10px;">Our Philosophy</span>
       <h2>Where Art Meets Beauty</h2>
-      <p>At Luxe Aura, we believe beauty is an individual journey. Our master stylists and aestheticians are dedicated to enhancing your natural features, ensuring you leave feeling confident, radiant, and truly pampered.</p>
+      <p style="margin-bottom:20px;">At Luxe Aura, we believe beauty is an individual journey. Our master stylists and aestheticians are dedicated to enhancing your natural features, ensuring you leave feeling confident, radiant, and truly pampered.</p>
       <ul class="about-list">
         <li>Personalized consultations for every client</li>
         <li>Internationally certified beauty experts</li>
@@ -66,14 +52,12 @@
         <li>Hygienic and relaxing environment</li>
       </ul>
       <br>
-      <a href="about.html" class="btn btn-primary">Discover Our Story</a>
-    </div>
-    <div class="hero-img reveal" style="border-radius:12px;">
-      <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop" alt="Beauty Artist">
+      <a href="about.html" class="btn btn-outline">Discover Our Story</a>
     </div>
   </div>
 </section>
 
+<!-- Services -->
 <section class="section section-alt">
   <div class="container">
     <div class="section-head reveal">
@@ -95,6 +79,42 @@
         <div class="service-icon">🌸</div>
         <h3>Skin & Spa</h3>
         <p>Rejuvenate your skin with our advanced facials, exfoliations, and relaxing spa therapies designed for a healthy, natural glow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials (Customer Feedback) -->
+<section class="section" style="background:var(--primary);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span>Client Stories</span>
+      <h2 style="color:#fff;">What Our Clients Say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">"An absolutely phenomenal experience. The attention to detail and the luxurious ambiance made me feel like a movie star. My bridal makeup was flawless!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">EM</div>
+          <div><h5>Emily M.</h5><span>Bridal Client</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">"I've been to many salons in Colombo, but Luxe Aura is truly on another level. The stylists really listen to what you want and deliver perfection."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SK</div>
+          <div><h5>Sarah K.</h5><span>Regular Client</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="quote-mark">"</div>
+        <p class="testi-text">"From the moment you walk in, you are treated like royalty. The HydraFacial completely transformed my skin. I highly recommend their spa treatments."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">NP</div>
+          <div><h5>Nadia P.</h5><span>Spa Client</span></div>
+        </div>
       </div>
     </div>
   </div>
